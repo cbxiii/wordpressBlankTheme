@@ -13,12 +13,14 @@
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico"/>
 		
 		<!-- Linked CSS Files -->
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/reset.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/cb.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive.css">
 		
 		
 		
 	
 		
 	</head>
-	<body <?php body_class(); ?>>
+	<body>
