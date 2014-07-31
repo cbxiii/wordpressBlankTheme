@@ -19,6 +19,10 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive.css">
 		
 		
+		<!-- Linked Javascript files -->
+		<script src="<?php bloginfo('template_directory'); ?>/js/jquery-1.9.1.min.js"></script>
+		<script src="<?php bloginfo('template_directory'); ?>/js/site.js"></script>
+	
 		
 	
 		
