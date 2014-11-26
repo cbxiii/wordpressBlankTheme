@@ -11,20 +11,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Remove if you're not building a responsive site. (But then why would you do such a thing?) -->
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico"/>
+
+		<!-- Web fonts here -->
 		
 		<!-- Linked CSS Files -->
-		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/reset.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/semantic.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/jquery.bxslider.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/dropdown/superfish.css">
+<!--
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/dropdown/megafish.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/dropdown/superfish-navbar.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/dropdown/superfish-vertical.css">
+-->
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/cb.css">
-		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive-tablet.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive-iphone.css">
 		
 		
 		<!-- Linked Javascript files -->
-		<script src="<?php bloginfo('template_directory'); ?>/js/jquery-1.9.1.min.js"></script>
-		<script src="<?php bloginfo('template_directory'); ?>/js/site.js"></script>
-	
-		
-	
-		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="<?php bloginfo('template_directory'); ?>/js/jquery-1.10.2.min.js"><\/script>')</script>
+		<script src="<?php bloginfo('template_directory'); ?>js/modernizr-2.6.2.min.js"></script>
+		<script src="<?php bloginfo('template_directory'); ?>js/jquery.easing.1.3.js"></script>
+		<script src="<?php bloginfo('template_directory'); ?>js/jquery.bxslider.min.js"></script><!-- Image slideshow plugin -->
+		<script src="<?php bloginfo('template_directory'); ?>js/jquery.fitvids.js"></script><!-- Responsive video embeds -->
+		<script src="<?php bloginfo('template_directory'); ?>js/jquery.superfish.js"></script><!-- Drop down menu -->
+		<script src="<?php bloginfo('template_directory'); ?>js/semantic.js"></script>
+		<script src="<?php bloginfo('template_directory'); ?>js/plugins.js"></script>
+		<script src="<?php bloginfo('template_directory'); ?>/js/site.js"></script>	
 	</head>
 	<body>

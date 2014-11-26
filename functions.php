@@ -95,3 +95,7 @@
 			</article>
 		<?php endif;
 	}
+
+
+	// Enable menus
+	add_theme_support( 'menus' );
