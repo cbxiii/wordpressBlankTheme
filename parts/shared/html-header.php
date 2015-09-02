@@ -28,7 +28,7 @@
 		<?php wp_head(); ?>
 		
 		<!-- Linked Javascript files -->
-		<script src="<?php bloginfo('template_directory'); ?>/vendor/jquery/jquery-1.10.2.min.js"><\/script>
+		<script src="<?php bloginfo('template_directory'); ?>/vendor/jquery/jquery-1.10.2.min.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/vendor/jquery/jquery.easing.1.3.js"></script>	
 		<script src="<?php bloginfo('template_directory'); ?>/vendor/modernizr/modernizr-2.8.3.min.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/vendor/bxslider/jquery.bxslider.js"></script>

@@ -44,7 +44,12 @@
 	e.g. require_once( 'custom-post-types/your-custom-post-type.php' );
 	
 	======================================================================================================================== */
-
+	add_action('wp_enqueue_scripts', 'no_more_jquery');
+	function no_more_jquery(){
+	    wp_deregister_script('jquery');
+	}
+	
+	add_filter('show_admin_bar', '__return_false');
 
 
 	/* ========================================================================================================================
