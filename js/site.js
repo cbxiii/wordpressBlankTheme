@@ -1,7 +1,18 @@
+jQuery(document).ready(function($) {
 
-	jQuery(document).ready(function($) {
+		// Slick example
+		/*
+		$('.the-slider').slick({
+			dots: true,
+			infinite: true,
+			arrows: true
+		});
+		*/
 
-		// Your JavaScript goes here
+});
 
-	});
+$(window).resize(function(){
+	
+	// on resize
 
+});

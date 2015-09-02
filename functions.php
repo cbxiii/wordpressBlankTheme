@@ -35,8 +35,6 @@
 	
 	======================================================================================================================== */
 
-	add_action( 'wp_enqueue_scripts', 'starkers_script_enqueuer' );
-
 	add_filter( 'body_class', array( 'Starkers_Utilities', 'add_slug_to_body_class' ) );
 
 	/* ========================================================================================================================
@@ -62,13 +60,6 @@
 	 * @author Keir Whitaker
 	 */
 
-	function starkers_script_enqueuer() {
-		wp_register_script( 'site', get_template_directory_uri().'/js/site.js', array( 'jquery' ) );
-		wp_enqueue_script( 'site' );
-
-		wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', '', '', 'screen' );
-        wp_enqueue_style( 'screen' );
-	}	
 
 	/* ========================================================================================================================
 	
